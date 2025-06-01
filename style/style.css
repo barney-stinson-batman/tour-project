@@ -1,0 +1,205 @@
+  *{
+       font-family: "Plus Jakarta Sans", sans-serif;
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+   }
+
+    body{     
+       min-height: 100vh;
+       background-image: linear-gradient(#ffffff, #ebdcff);
+     }
+
+    img{
+        width: 100%;
+     }
+    
+     #banner{
+        background-color: white;
+        /* margin-top:100px ;
+        margin-bottom: 120px;
+        margin-left: auto;
+        margin-right: auto; */
+                  /* T-B   L-R */
+        /* margin: 100px 120px; */
+             /* T      R     B     L  */
+        margin: 100px auto 120px auto;
+        width: 87.5%;
+        border-radius: 40px;
+        border: 2px solid #872BFF10;
+        padding: 20px 30px;
+        background-image: url("../images/hero-bg.png");
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+            }
+
+        .banner-content{
+            width: 50%;
+        }
+
+        .banner-content *{
+            margin-bottom: 20px;
+        }
+
+        .banner-content h1{
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        .banner-content h1 span{
+            color: #f411cf;
+        }
+
+        .banner-content p{
+            font-weight: medium;
+            font-size: 18px;
+            color: #a8a8a8;
+        }
+
+        .btn-get-started{
+            background-color: #872bff;
+            border-radius: 30px;
+            padding: 16px 32px;
+            color: white;
+            cursor: pointer;
+            margin-right: 20px ;
+        }
+
+        .btn-watch-demo{
+            /* background-color: #872bff; */
+            border-radius: 30px;
+            padding: 16px 32px;
+            /* color: white; */
+            cursor: pointer;
+            margin-right: 20px;
+            border: 2px solid #872bff;
+        }
+
+        .banner-image{
+            width: 50%;
+        }
+
+        /* .banner-image img{
+            width: 600px;
+        } */
+
+
+
+
+        #middle{
+            width: 87.5%;
+            margin: 0px auto 120px auto;
+        }
+
+        .heading{
+            text-align: center;
+        }
+
+        .heading h4{
+            color: #f411cf;
+            font-weight: bold;
+            font-size: 24px;
+            letter-spacing: 30%;
+            margin-bottom: 14px;
+        }
+
+        .heading h2{
+            font-weight: bold;
+            font-size: 44px;
+            margin-bottom: 60px;
+
+        }
+
+        #middle-cards{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .card{
+            background-color: white;
+            max-width: 300px;
+            /* height: 450px; */
+            text-align: center;
+            padding: 100px 60px;
+            border-radius: 30px;
+
+        }
+
+        .card img{
+            width: 80px;
+            margin-bottom: 30px;
+        }
+
+        .card h3{
+            font-weight: semibold;
+            font-size: 28;
+            margin-bottom: 20px;
+        }
+
+        .card p{
+            color: #a8a8a8;
+        }
+
+        #explore-body{
+            display: flex;
+            background-color: white;
+            width: 87.5%;
+            border-radius: 24px;
+            gap: 32px;
+            padding: 48px;
+            margin: 0px auto 120px auto ;
+        }
+
+        #img-china{
+            width: 408px;
+            height: 306px;
+        }
+
+        #china-flag{
+            width: 100px;
+            height: 66.6px;
+            margin-bottom: 12px;
+        }
+
+        #img-china{
+            width:40%;
+        }
+
+        #explore-body-content{
+            width: 60%;
+        }
+
+        /* #great{
+            margin-bottom: 12px;
+        }
+
+        #para{
+            margin-bottom: 12px;
+        } */
+
+        #explore-body *{
+            margin-bottom: 12px;
+        }
+
+        #countries-body{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            /* max-width: 87.5%; */
+            /* align-items: center; */
+            /* margin: 0px auto 120px auto; */
+
+        }
+        
+        .country{
+            padding: 40px;
+            background-color: white;
+            border-radius: 16px;
+        }
+
+        #button-last{
+            align-items: center;
+        }
